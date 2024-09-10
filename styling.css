@@ -1,4 +1,4 @@
-
+/*images from homepage*/
 
 .styled-image {
     width: 150px;
@@ -18,4 +18,12 @@
 
        
       
+   /*landingpage*/
+
+   .backgroundimage{
+    background-image: url(LogoPic.jpeg);
+    background-repeat:no-repeat;
+    background-size: 100% 90%;
+    min-height: 100vh;
+   }
    

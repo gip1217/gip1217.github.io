@@ -535,4 +535,10 @@ tbody tr:hover {
     background-color: #CFE6EE;
     font-size: 20px;
 }
-
+.wink{
+    width:160px;
+}
+.addamspic, .doggo{
+    width: 270px;
+    align:right;
+}

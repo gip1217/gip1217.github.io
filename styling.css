@@ -1,7 +1,7 @@
-/*images from homepage*/
+/*images homepage*/
 
 .styled-image {
-    width: 150px;
+    width: 250px;
     height:auto;
     border: 5px solid #2A9887;
     border-radius: 3px;
@@ -18,7 +18,7 @@
 
        
       
-   /*landingpage*/
+   /*index*/
 
 .backgroundimage{
     background-image:url(LogoLandingpage.jpg);
@@ -26,26 +26,513 @@
 }
 
 
-.landingpage{
+.index{
     text-align: center;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Courier New', Courier, monospace;
     font-size:45px;
     font-weight:bolder;
 }
-.landingpage{
-    font-family: "Fascinate Inline", system-ui;
+.index{
+    font-family:'Courier New', Courier, monospace;
     font-weight: 400;
     font-style: normal;
-    color:rgb(51, 134, 186)
+    color:rgb(84, 177, 234)
 }
+/*navigation bar*/
+
+.ul{
+    list-style-type: none;
+    margin:auto;
+    padding: 10;
+    overflow: hidden;
+    font-family:'Courier New', Courier, monospace;
+    font-size:10px;
+    font-weight: 15px;
+    font-style:bolder;
+    
+}
+
+.li{
+    float: left;
+    
+} 
+.li{
+  display: block;
+  color: rgb(83, 177, 235);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  font-style: bolder;
+  text-align: center;
+  padding: 10px 11px;
+ 
+}
+.li a:hover {
+    background-color: rgb(205, 251, 246);
+    border-radius: 10px;
+    border: 5px solid rgb(205, 251, 246);
+  }
+
+  .navbox{
+    border: 2px;
+    border-radius: 10px;
+    
+    border-width: 2px;
+    text-decoration: none;
+  }
 
 /*homepage*/
 
-.content-section h2,{
-font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', serif;
-font-size: large;
+.alittlebitaboutmyself h2{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 45px;
+  width:500px;
+  margin:35px
+  
+
 }
-.content-section p {
-font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',serif;
-font-size: medium;
+.alittlebitaboutmyself p{
+   font-family:'Courier New', Courier, monospace;
+   font-size:20px;
+   margin:35px;
+   
 }
+.whyhbo-ict h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size:40px;
+    width:500px;
+    margin:35px
+    
+}
+.whyhbo-ict p{
+    font-family:'Courier New', Courier, monospace;
+    font-size:20px;
+    margin:35px;
+    
+}
+.orderedlist {
+    font-family:'Courier New', Courier, monospace;
+    font-size:20px;
+    margin:35px;
+}
+
+.uni-site, .ICT {
+    text-decoration: none;
+}
+
+/*profile page*/
+
+.hprofile{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  text-align: right;
+  margin:20px;
+  line-height: 1;
+  color:#E7E3DA;
+}
+.hprofile2{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  text-align: left;
+  line-height: 1;
+  margin:20px;
+  color:#E7E3DA;
+
+}
+.par{
+    font-family:monospace;
+    text-align: right;
+    line-height: 1;
+    font-size:20px;
+    margin:20px;
+    color:#E7E3DA;
+}
+
+.li1{
+    list-style-type: none;
+    text-align:right;
+    line-height: 1;
+    font-family: monospace;
+    font-size:20px;
+    font-style: bolder;
+    margin:20px;
+    color:#E7E3DA;
+}
+.li2{
+    list-style-type: none;
+    text-align: left;
+    line-height: 1;
+    font-family: monospace;
+    font-size:20px;
+    font-style: bolder;
+    margin:20px;
+    color:#E7E3DA;
+    
+}
+.connect{
+    font-family:monospace;
+    font-size:20px;
+    margin:20px;
+    color:#E7E3DA;
+}
+.addams, .fluffdog{
+    text-decoration: none;
+}
+.backgroundimg{
+    background-image: url(purpledust.jpeg);
+    background-size: 110%;
+    color:#7511F3;
+
+}
+
+.box1{
+    height: 300px;
+    width: 1750px;
+    text-align: right;
+
+}
+.box2{
+    height: 300px;
+    width: 1750px;
+    text-align: left;
+}
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+
+/*blog*/
+
+.welcome{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    margin:20px;
+
+}
+.cattitle{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin:20px;
+}
+.catli{
+    text-decoration: none;
+    margin:35px;
+}
+
+.categories{
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.persswot{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin:20px;
+    border:15px;
+    width:350px;
+    margin:20px;
+}
+.swotbox{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #F9ECCE;
+    width: 1600px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+.programmingbox{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin:20px;
+    border:15px;
+    width:350px;
+    margin:20px;
+    border-radius: 10px;
+    
+    
+    
+}
+.prgrmbox{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #C3E2DD;
+    width: 1600px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+
+    
+}
+.firstfeedback{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin: 20px;
+    border:15px;
+    width:350px;
+    margin:20px;
+}
+.feedback{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#D2E1B6;
+    width: 1600px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.aboutict{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin: 20px;
+    border:15px;
+    width:350px;
+    margin:20px;
+}
+.article{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#EDD8E9;
+    width: 1600px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.button1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+
+}
+/*articleICT*/
+
+.h3titlearti{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.h4title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+ .ndp{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin:7px;
+    padding:10px;
+ }
+ .stp{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin:7px;
+    padding:10px
+ }
+ .backgroundcolor{
+    background-color:#EDD8E9;
+    
+ }
+ .h3firstfeed{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 10px;
+    padding:10px;
+ }
+ .feedbacktxt{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin:10px;
+    padding:10px;
+ }
+ .backgroundcolor2{
+background-color: #D2E1B6;
+ }
+ .prgextitle{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+ }
+ .pprgrmex{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin:10px;
+    padding: 10px;
+ }
+ .backgroundcolor3{
+    background-color: #C3E2DD;
+    
+ }
+ .personalSWOTanalysis{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin:10px;
+    padding:10px;
+ }
+ .table{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #EBE8E2;
+ }
+.th, .td {
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #EBE8E2;
+    font-size: 1.1em;
+    vertical-align: top;
+}
+.th {
+    background-color:  #F9E3B5;
+    font-weight: bold;
+    text-align: center;
+}
+.backgroundcolor5{
+    background-color: #F9ECCE;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.ultable, .ulfaq{
+    list-style-type: none;
+}
+.backgroundstyle{
+    background-image: radial-gradient(circle, rgb(230, 228, 225  ) 2px, transparent 2px);
+    background-size: 30px 30px;
+    background-color: rgb(247, 245, 242); 
+}
+.ulfaq{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.what, .contributing, .howto{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin:10px;
+    padding:10px;
+}
+.parafaq{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+.cattitlefaq{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    padding: 10px;
+}
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.menudash{
+    width: 200px;                
+    background-color: #E8F3CC;       
+    padding: 20px;                
+    position: fixed;              
+    height: 100vh;                
+    top: 0;
+    right: 0;
+}
+.ullegend{
+    list-style-type: none;       
+    padding: 0;
+}
+.colorindex{
+    margin-bottom: 10px;
+}
+.menudash a{
+    color: rgb(14, 13, 13);                 
+    text-decoration: none;        
+    display: block;               
+    padding: 10px;                
+    background-color:#B2C6CD;       
+    border-radius: 4px;           
+    text-align: center;           
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.menudash li:nth-child(1) a {
+    background-color: red;
+}
+
+.menudash li:nth-child(2) a {
+    background-color: orange;
+}
+
+.menudash li:nth-child(3) a {
+    background-color: green;
+}
+.backgroundst{
+    background-color: #AED0C6;
+}
+.h3legend{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    color: #54564D;
+}
+.fqdash{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.tabledash {
+    font-family: 'Courier New', Courier, monospace;
+    width: 75%;
+    margin: 20px 50px;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.thdash, .tddash {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 1.1em;
+}
+
+.thdash  {
+    background-color: #B9CED6  ;
+    font-weight: bold;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #B2DDEC;
+}
+
+
+tbody tr:hover {
+    background-color: #B9CED6  ;
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+.firstqdash, .scndqdash, .restqdash{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+.dash1{
+    background-color: #CFE6EE;
+    font-size: 20px;
+}
+

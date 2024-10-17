@@ -1,238 +1,335 @@
-/*images homepage*/
+       /*images-homepage*/
 
 .styled-image {
-    width: 250px;
+    width: 235px;
     height:auto;
     border: 5px solid #2A9887;
-    border-radius: 3px;
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    box-shadow: 3px 3px 15px rgb(3, 217, 250);
     filter: grayscale(100%);
     transition:all 0.4s ease;
     float: left; 
     margin: 20px
 }
-.styled-image:hover{
-    filter: none;
+.styled-image:hover {
+    filter: none; 
     transform: scale(1.1);
 }
 
-       
-      
-   /*index*/
-
-.backgroundimage{
-    background-image:url(LogoLandingpage.jpg);
-    background-size:cover;
+.uni-image{
+    width: 300px;
+    height:auto;
+    float: right;
+    border: 5px solid #2A9887;
+    border-radius: 3px;
+    box-shadow: 3px 3px 15px rgb(3, 217, 250);
+    filter: grayscale(100%);
+    transition:all 0.4s ease; 
+    margin: 20px;
+}
+ 
+.uni-image:hover {
+    filter: none; 
+    transform: scale(1.1);
 }
 
+      /*navigation bar*/
 
-.index{
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    font-size:45px;
-    font-weight:bolder;
-}
-.index{
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 400;
-    font-style: normal;
-    color:rgb(84, 177, 234)
-}
-/*navigation bar*/
-
-.ul{
-    list-style-type: none;
-    margin:auto;
-    padding: 10;
+.navigation-ul{
+    list-style-type: none;  /*removing bullet points or numbering from the list */
+    margin-right: 30px;
+    margin-left: 30px;
     overflow: hidden;
     font-family:'Courier New', Courier, monospace;
-    font-size:10px;
-    font-weight: 15px;
-    font-style:bolder;
-    
+    font-size:15px;
+    font-weight: bold;
 }
-
-.li{
-    float: left;
-    
-} 
-.li{
-  display: block;
+.navigation-li{
+  float:left;
+  display:block;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
   color: rgb(83, 177, 235);
   font-family: 'Courier New', Courier, monospace;
   font-size: 15px;
-  font-style: bolder;
-  text-align: center;
-  padding: 10px 11px;
- 
+
 }
-.li a:hover {
+
+
+.navigation-li a:hover {
     background-color: rgb(205, 251, 246);
     border-radius: 10px;
     border: 5px solid rgb(205, 251, 246);
-  }
-
-  .navbox{
-    border: 2px;
-    border-radius: 10px;
+ }
+ .navigation-bar{
+    border: 200px;
+    border-radius: 200px;
     
-    border-width: 2px;
+    border-width: 200px;
     text-decoration: none;
   }
 
-/*homepage*/
-
-.alittlebitaboutmyself h2{
-  font-family:'Courier New', Courier, monospace;
-  font-size: 45px;
-  width:500px;
-  margin:35px
-  
-
+      /*homepage*/
+.bodyhomepage{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    column-gap:50px;
+    background-image :radial-gradient(circle, rgba(144, 144, 144, 0.857) 1px, transparent 1px);
+    background-size: 25px 25px;
 }
-.alittlebitaboutmyself p{
-   font-family:'Courier New', Courier, monospace;
-   font-size:20px;
-   margin:35px;
+
+.column-alittlebitaboutmyself{
+    float: left;
+    width: 50%; 
+    margin-top: 40px;
    
-}
-.whyhbo-ict h2{
-    font-family:'Courier New', Courier, monospace;
-    font-size:40px;
-    width:500px;
-    margin:35px
     
 }
-.whyhbo-ict p{
+.row ::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column-alittlebitaboutmyself h2 {
+    margin-left: 50px;
     font-family:'Courier New', Courier, monospace;
-    font-size:20px;
-    margin:35px;
+    border-bottom:2px solid black;
+    font-size: 50px;
+    width:90%;
+    margin-top:20px;
+}
+.column-alittlebitaboutmyself p{
+    line-height: 1.6;
+    font-size: 22px;
+    float:left;
+    margin-top: 50px;
+    margin-bottom: 250px;
+    margin-right:35px; 
+    margin-left: 49px;
     
 }
-.orderedlist {
+.column-whyhbo-ict{
+    float:right;
+    width: 50%;
+    margin-top: 40px;
+    
+}
+.column-whyhbo-ict h2 {
+    margin-left: 50px;
     font-family:'Courier New', Courier, monospace;
-    font-size:20px;
-    margin:35px;
+    border-bottom:2px solid black;
+    font-size: 50px;
+    width:90%;
+    margin-top:20px;
 }
 
-.uni-site, .ICT {
+.column-whyhbo-ict p{
+    line-height: 1.6;
+    font-size: 22px;
+    float:left;
+    margin-top: 50px;
+    margin-right:20px; 
+    margin-left: 51px;
+    
+
+}
+.orderedlist-column {
+    line-height: 1.6;
+    font-size: 23px;
+    float:left;
+    margin-bottom: 190px;
+    margin-right:20px; 
+    margin-left: 49px;
+    
+}
+.uni-site, .ICT-site {
     text-decoration: none;
+    color: #0e0ae9
 }
 
-/*profile page*/
 
-.hprofile{
-  font-family:'Courier New', Courier, monospace;
-  font-size: 30px;
-  text-align: right;
-  margin:20px;
-  line-height: 1;
-  color:#E7E3DA;
-}
-.hprofile2{
-  font-family:'Courier New', Courier, monospace;
-  font-size: 30px;
-  text-align: left;
-  line-height: 1;
-  margin:20px;
-  color:#E7E3DA;
 
-}
-.par{
-    font-family:monospace;
-    text-align: right;
-    line-height: 1;
-    font-size:20px;
-    margin:20px;
-    color:#E7E3DA;
+        /*profile page*/
+
+ .background-profile{
+    background-image :radial-gradient(circle, rgba(154, 153, 153, 0.857) 1px, transparent 1px);
+    background-size: 25px 25px;
 }
 
-.li1{
-    list-style-type: none;
-    text-align:right;
-    line-height: 1;
-    font-family: monospace;
-    font-size:20px;
-    font-style: bolder;
-    margin:20px;
-    color:#E7E3DA;
-}
-.li2{
-    list-style-type: none;
+    .box1 {
+        float: left;
+        height:750px;
+        margin-left: 45px;
+        margin-right: 70px;
+        width: 1100px;
+        text-align: left;
+        line-height: 1.6;
+        
+ }
+
+
+
+ .h1title-profile{
+    font-family:'Courier New', Courier, monospace;
+    font-size:50px;
+    line-height: 1.6;
     text-align: left;
-    line-height: 1;
-    font-family: monospace;
-    font-size:20px;
-    font-style: bolder;
-    margin:20px;
-    color:#E7E3DA;
+    margin-left: 65px;
+    color:#000000;
+    text-decoration:underline;
     
 }
-.connect{
+
+.h2-profile{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.8;
+  margin:20px;
+  color:#000000;
+
+}
+.first-paragraph-profile {
+    font-family:'Courier New', Courier, monospace;
+    text-align:left;
+    line-height: 1.6;
+    font-size:20px;
+    margin:20px;
+    color:#000000;
+}
+
+.list-1-profile{
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1.6;
+    text-align: left;
+    font-size:20px;
+    margin:20px;
+    color:#000000;
+}
+
+.doggo-profilepic, .profile-pic{
+    width: 375px;
+    height:auto;
+    box-shadow: 3px 3px 15px rgb(3, 217, 250);
+    filter: grayscale(100%);
+    transition:all 0.4s ease;
+    float: left; 
+    margin: 20px;
+}
+.doggo-profilepic:hover {
+    filter:none;
+    transform: scale(1.1);
+}
+.profile-pic:hover{
+    filter:none;
+    transform: scale(1.1);
+}
+.addams-profilepic{
+    width: 355px;
+    height:auto;
+    box-shadow: 3px 3px 15px rgb(3, 217, 250);
+    filter: grayscale(100%);
+    transition:all 0.4s ease;
+    float: left; 
+    margin: 20px; 
+}
+.addams-profilepic:hover{
+    filter:none;
+    transform: scale(1.1);
+}
+
+.box2{
+    height:700px;
+    float: inline-start;
+    margin-left: 1375px;
+    width: 1100PX;
+    margin-right: 15px;
+    line-height: 1.6;
+    text-align: right;
+    
+}
+
+
+.table-profile{
+    font-family: 'Courier New', Courier, monospace;
+    width: 500px;
+    margin:20px auto;
+
+}
+.table-header{
+font-family: 'Courier New', Courier, monospace;
+font-size: 25px;
+
+}
+.table-header, .table-profile-data{
+    margin-top: 35px;
+    text-align: center;
+    padding: 15px;
+    width: 50px;
+}
+.table-profile-row:nth-child(even){
+background-color: #ddf79e;
+}
+.table-profile-row:nth-child(odd){
+    background-color: rgb(251, 222, 186);
+}
+.connect-profile{
     font-family:monospace;
     font-size:20px;
     margin:20px;
-    color:#E7E3DA;
+    color:#040404;
 }
 .addams, .fluffdog{
     text-decoration: none;
 }
-.backgroundimg{
-    background-image: url(purpledust.jpeg);
-    background-size: 110%;
-    color:#7511F3;
-
-}
-
-.box1{
-    height: 300px;
-    width: 1750px;
-    text-align: right;
-
-}
-.box2{
-    height: 300px;
-    width: 1750px;
+.footer{
+    float: left;
+    height:150px;
+    margin-left: 65px;
+    margin-right: 80px;
+    width: 1100px;
     text-align: left;
 }
-.title{
+.contact-container{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
+    font-size: 20px;
+}
+.instagram-contact{
+    display: inline-block;
+    width: 40px;
+    height:40px;
+}
+.github-contact{ 
+    display: inline-block;
+    width: 40px;
+    height:40px;
+}
+.icon-container{
+    align-items: center;
 }
 
+   /*Blog-Main-Page*/
+.background-blog{
+    background-image :radial-gradient(circle, rgba(154, 153, 153, 0.857) 1px, transparent 1px);
+    background-size: 25px 25px;
+}
 
-/*blog*/
-
-.welcome{
+.h2-welcome{
     font-family: 'Courier New', Courier, monospace;
     font-size: 35px;
     margin:20px;
 
 }
-.cattitle{
+.h3-personal-swot{
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
-    margin:20px;
-}
-.catli{
-    text-decoration: none;
-    margin:35px;
-}
-
-.categories{
-    list-style-type: none;
-    font-family: 'Courier New', Courier, monospace;
-    
-}
-.persswot{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    margin:20px;
     border:15px;
     width:350px;
     margin:20px;
 }
-.swotbox{
+.swotbox-paragraph{
     font-family: 'Courier New', Courier, monospace;
     background-color: #F9ECCE;
     width: 1600px;
@@ -242,7 +339,7 @@
     border-radius: 10px;
 
 }
-.programmingbox{
+.h3-programming{
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     margin:20px;
@@ -250,22 +347,19 @@
     width:350px;
     margin:20px;
     border-radius: 10px;
-    
-    
-    
+     
 }
-.prgrmbox{
+.programming-paragraph{
     font-family: 'Courier New', Courier, monospace;
     background-color: #C3E2DD;
     width: 1600px;
     border: 15px;
     padding: 50px;
     margin: 20px;
-    border-radius: 10px;
-
-    
+    border-radius: 10px;  
 }
-.firstfeedback{
+
+.h3-firstfeedback{
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     margin: 20px;
@@ -273,7 +367,7 @@
     width:350px;
     margin:20px;
 }
-.feedback{
+.feedback-paragraph{
     font-family: 'Courier New', Courier, monospace;
     background-color:#D2E1B6;
     width: 1600px;
@@ -282,7 +376,7 @@
     margin: 20px;
     border-radius: 10px;
 }
-.aboutict{
+.h3-article{
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     margin: 20px;
@@ -290,7 +384,7 @@
     width:350px;
     margin:20px;
 }
-.article{
+.article-paragraph{
     font-family: 'Courier New', Courier, monospace;
     background-color:#EDD8E9;
     width: 1600px;
@@ -304,69 +398,62 @@
     font-size: 15px;
 
 }
-/*articleICT*/
+.button-return{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-left: 20px;
+}
+/*Feedback*/
 
-.h3titlearti{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
+.blog{
+    width: 90%;
+    margin: 30px auto;
+    font-size:20px;
+    line-height: 1.6;
 }
-.h4title{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-}
- .ndp{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    margin:7px;
-    padding:10px;
- }
- .stp{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    margin:7px;
-    padding:10px
- }
- .backgroundcolor{
-    background-color:#EDD8E9;
-    
- }
- .h3firstfeed{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    margin: 10px;
-    padding:10px;
- }
- .feedbacktxt{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    margin:10px;
-    padding:10px;
- }
- .backgroundcolor2{
-background-color: #D2E1B6;
- }
- .prgextitle{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    margin: 10px;
-    padding: 10px;
- }
- .pprgrmex{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    margin:10px;
-    padding: 10px;
- }
- .backgroundcolor3{
+.backgroundcolor2{
+    background-color: #D2E1B6;
+     }
+
+
+ /*Programming Experience External Page*/
+
+ .backgroundcolor-programing-experience-external{
     background-color: #C3E2DD;
-    
+  
  }
+ .h3-prgexperience-external{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin: 5px;
+ }
+ .programming-experience-external-body{
+    width: 90%;
+    margin: 30px auto;
+    font-size:20px;
+    line-height: 1.6;
+
+ }
+
+ /* Article about ICT*/
+ .article-body{
+    width: 90%;
+    margin: 30px auto;
+    font-size:20px;
+    line-height: 1.6;
+ }
+ .backgroundcolor-article-external{
+    background-color:#EDD8E9;
+ }
+ /*Personal SWOT Analysis External Page*/
+
  .personalSWOTanalysis{
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     margin:10px;
     padding:10px;
  }
+
  .table{
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
@@ -396,149 +483,218 @@ tr:nth-child(even) {
 .ultable, .ulfaq{
     list-style-type: none;
 }
-.backgroundstyle{
-    background-image: radial-gradient(circle, rgb(230, 228, 225  ) 2px, transparent 2px);
-    background-size: 30px 30px;
-    background-color: rgb(247, 245, 242); 
+
+      
+     /*FAQ*/
+
+.background-faq{
+    background-image :radial-gradient(circle, rgba(154, 153, 153, 0.857) 1px, transparent 1px);
+    background-size: 25px 25px;
 }
-.ulfaq{
+.title-faq{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
+    font-size: 35px;
+
 }
-.what, .contributing, .howto{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    margin:10px;
-    padding:10px;
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    margin: 30;
+    padding:40px;
 }
-.parafaq{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    margin: 10px;
-    padding: 10px;
+
+.faq-section {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: rgb(210, 223, 223);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(46, 53, 50, 0.1);
 }
-.cattitlefaq{
+
+.faq-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.faq-question {
+    display: block;
+    cursor: pointer;
     font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 10px;
-    padding: 10px;
+    font-weight: bold;
+    background-color: #8cb0bd;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
 }
-.title{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    margin: 10px;
-    padding: 10px;
+
+.faq-answer {
+    display: none;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: 20px;
 }
-.menudash{
-    width: 200px;                
-    background-color: #E8F3CC;       
-    padding: 20px;                
-    position: fixed;              
-    height: 100vh;                
-    top: 0;
+
+.faq-answer p {
+    margin: 0;
+}
+
+.faq-answer a {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+
+.faq-toggle {
+    display: none;
+}
+
+.faq-toggle:checked + .faq-question + .faq-answer {
+    display: block;
+}
+
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+       /*persoanl-dashboard*/
+       /*aside-menu*/
+.h1title-dashboard{
+    font-family:'Courier New', Courier, monospace;
+    font-size:45px;
+    line-height: 1.2;
+    text-align: center;
+    color:#000000;
+}
+.aside-menu-dashboard{
+    width: 250px;                
+    background-color: #dbebb1;       
+    padding: 30px;                
+    position:fixed;            
+    height: 25vh;                
+    top: 20;
     right: 0;
 }
-.ullegend{
-    list-style-type: none;       
-    padding: 0;
-}
-.colorindex{
-    margin-bottom: 10px;
-}
-.menudash a{
-    color: rgb(14, 13, 13);                 
-    text-decoration: none;        
-    display: block;               
-    padding: 10px;                
-    background-color:#B2C6CD;       
-    border-radius: 4px;           
-    text-align: center;           
+.legend-list{
+    list-style-type:none;
+    padding: 20;
     font-family: 'Courier New', Courier, monospace;
-
-}
-.menudash li:nth-child(1) a {
-    background-color: red;
-}
-
-.menudash li:nth-child(2) a {
-    background-color: orange;
-}
-
-.menudash li:nth-child(3) a {
-    background-color: green;
-}
-.backgroundst{
-    background-color: #AED0C6;
+    font-size: 20px;
+    line-height: 2.2;
+    text-decoration: none;
 }
 .h3legend{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
-    color: #54564D;
+    color: #545550;
 }
-.fqdash{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    margin: 10px;
-    padding: 10px;
+.aside-menu-color-orange{
+    color:black;
+    font: bold;
+    background-color: rgb(244, 175, 47);
+    text-align: center;
 }
-.tabledash {
-    font-family: 'Courier New', Courier, monospace;
-    width: 75%;
-    margin: 20px 50px;
-    border-collapse: collapse;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+.aside-menu-color-red{
+    color:black;
+    font: bolder;
+    background-color: red;
+    text-align: center;
+}
+.aside-menu-color-green{
+    color:black;
+    font: bolder;
+    background-color: rgb(40, 196, 40);
+    text-align: center;
 }
 
-.thdash, .tddash {
+.aside-menu-useful-links{
+    width: 320px;
+    text-decoration:none;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    font-size: 20px;             
+    background-color: #dbebb1;       
+    position:fixed;           
+    height: 25vh;                
+    top: 650px;
+    right: 0;
+}
+
+/*tables*/
+
+
+/*background of entire personal dashboard page*/
+.background-dashboard{
+    background-color: #c1e8da;
+    background-image :radial-gradient(circle, rgba(154, 153, 153, 0.857) 1px, transparent 1px);
+    background-size: 25px 25px; 
+}
+
+.year-credit-dashboard-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 50px;
+    padding: 5px;
+}
+/*title of each table*/
+.first-quartile-dashboard-title, .second-quartile-dashboard-title, .last-quartile-dashboard-title, .continuous-dashboard-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 50px;
+    padding: 5px;
+}
+/*EC dashboard */
+
+.table-dashboard-EC {
+    font-family:'Courier New', Courier, monospace;
+    width: 80%;
+    margin: 20px 90px;
+    border-collapse: collapse;
+    background-color: rgb(207, 214, 224);
+    box-shadow: 0 4px 8px rgba(6, 107, 147, 0.1); 
+   
+}
+.table-data-dashboard-EC{
+    font-size: 20px;
+    text-align: center;
+}
+/**/
+
+.dashboard-table{
+    background-color: #CFE6EE;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 80%;
+    margin: 20px 90px;
+    background-color: rgb(207, 214, 224);
+    box-shadow: 0 4px 8px rgba(6, 107, 147, 0.1); 
+}
+
+
+
+.table-header{
     padding: 15px;
     text-align: center;
     border: 1px solid #ddd;
-    font-size: 1.1em;
-}
-
-.thdash  {
-    background-color: #B9CED6  ;
-    font-weight: bold;
-}
-
-
-tbody tr:nth-child(even) {
-    background-color: #B2DDEC;
-}
-
-
-tbody tr:hover {
-    background-color: #B9CED6  ;
-    
-}
-
-
-@media screen and (max-width: 600px) {
-    table {
-        width: 100%;
-    }
-
-    th, td {
-        padding: 10px;
-        font-size: 0.9em;
-    }
-}
-.firstqdash, .scndqdash, .restqdash{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    margin: 10px;
-    padding: 10px;
-}
-.dash1{
-    background-color: #CFE6EE;
     font-size: 20px;
 }
-.wink{
-    width:160px;
+
+.table-cell  {
+    background-color: #86cbe6  ;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;;
 }
-.addamspic, .doggo{
-    width: 270px;
-    align:right;
-}
+
+
